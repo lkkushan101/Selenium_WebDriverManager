@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12806" started-at="2018-05-08T17:21:58Z" finished-at="2018-05-08T17:22:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12806" started-at="2018-05-08T17:21:58Z" finished-at="2018-05-08T17:22:11Z">
+      <class name="TestAppium.AppiumTestClass">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestAppium.AppiumTestClass@29ee9faa]" name="setUp" is-config="true" duration-ms="8960" started-at="2018-05-08T17:21:58Z" finished-at="2018-05-08T17:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCal()[pri:0, instance:TestAppium.AppiumTestClass@29ee9faa]" name="testCal" duration-ms="3822" started-at="2018-05-08T17:22:07Z" finished-at="2018-05-08T17:22:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCal -->
+      </class> <!-- TestAppium.AppiumTestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
