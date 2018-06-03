@@ -1,2 +1,0 @@
-2018-06-03 08:09:35,673 ERROR [Worker-13] - System.err - log4j:WARN No appenders could be found for logger (org.eclipse.xtext.ui.internal.Activator).
-2018-06-03 08:09:35,674 ERROR [Worker-13] - System.err - log4j:WARN Please initialize the log4j system properly.
