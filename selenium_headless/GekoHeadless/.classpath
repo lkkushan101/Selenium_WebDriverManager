@@ -2,8 +2,6 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/selenium-java-3.8.1/client-combined-3.8.1.jar"/>
-	<classpathentry kind="lib" path="C:/selenium-java-3.8.1/client-combined-3.8.1-sources.jar"/>
 	<classpathentry kind="lib" path="C:/selenium-java-3.8.1/libs/byte-buddy-1.7.5.jar"/>
 	<classpathentry kind="lib" path="C:/selenium-java-3.8.1/libs/commons-codec-1.10.jar"/>
 	<classpathentry kind="lib" path="C:/selenium-java-3.8.1/libs/commons-exec-1.3.jar"/>
@@ -12,6 +10,8 @@
 	<classpathentry kind="lib" path="C:/selenium-java-3.8.1/libs/guava-23.0.jar"/>
 	<classpathentry kind="lib" path="C:/selenium-java-3.8.1/libs/httpclient-4.5.3.jar"/>
 	<classpathentry kind="lib" path="C:/selenium-java-3.8.1/libs/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="C:/selenium-java-3.8.1/client-combined-3.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/selenium-java-3.8.1/client-combined-3.8.1-sources.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
