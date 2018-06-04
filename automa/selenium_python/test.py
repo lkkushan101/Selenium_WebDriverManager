@@ -1,19 +1,18 @@
-import unittest
 from selenium import webdriver
-from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
 
+driver = webdriver.Chrome()
+driver.get("http://www.google.lk")
+assert "Google" in driver.title
 
-class SampleTest(unittest.TestCase):
+search_input = driver.find_element_by_id("lst-ib")
+search_input.send_keys("Selenium")
 
-    def setUp(self):
-        self.driver = webdriver.Chrome()
+search_button = driver.find_element_by_name("btnK")
+search_button.click()
 
-    def pypi_test(self):
-        self.driver.get("http://www.google.lk")
-        self.driver.find_element(By.ID, "lst-ib").send_keys("Selenium")
-        self.driver.find_element(By.ID, "hplogo").click()
-        self.driver.find_element(By.NAME, "btnK").click()
+selenium_link = driver.find_element_by_link_text("Selenium - Web Browser Automation")
+selenium_link.click();
 
-    def tearDown(self):
-        self.driver.quit()
-
+assert "Selenium - Web Browser Automation" in driver.title
+driver.close()
