@@ -1,7 +1,5 @@
 from pywinauto import application
-import time
-import pywinauto
-from pywinauto.findbestmatch import find_best_match
+
 
 appl = application.Application()
 appl.Start("Notepad.exe")
