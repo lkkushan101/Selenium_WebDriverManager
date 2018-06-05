@@ -3,7 +3,7 @@ from selenium import webdriver
 from openpyxl import load_workbook
 from selenium.webdriver.common.keys import Keys
 
-class PythonOrgSearch(unittest.TestCase):
+class PythonGoogleSearch(unittest.TestCase):
  
      
     def setUp(self):
