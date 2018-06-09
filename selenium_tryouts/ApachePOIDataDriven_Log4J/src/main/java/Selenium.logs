@@ -1,0 +1,4 @@
+06:01:16,199 DEBUG devpinoyLogger:24 – Opening the Chrome browser
+06:01:18,605 DEBUG devpinoyLogger:26 – Navigating to Google
+06:01:19,921 DEBUG devpinoyLogger:35 – Searching a Selenium
+06:01:21,229 DEBUG devpinoyLogger:37 – Navigating Selenium HQ

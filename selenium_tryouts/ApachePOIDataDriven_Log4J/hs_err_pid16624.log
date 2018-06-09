@@ -1,0 +1,185 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 262144000 bytes for Failed to commit area from 0x00000006c6600000 to 0x00000006d6000000 of length 262144000.
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   The process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (t:/workspace/hotspot/src/os/windows/vm/os_windows.cpp:3357), pid=16624, tid=28324
+#
+# JRE version:  (9.0+11) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (9.0.4+11, mixed mode, tiered, compressed oops, g1 gc, windows-amd64)
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -ea -Dfile.encoding=Cp1252 org.testng.remote.RemoteTestNG -serport 39194 -protocol json -d C:\Users\kam\selenium_tryouts\ApachePOIDataDriven\test-output C:\Users\kam\AppData\Local\Temp\testng-eclipse--1452283284\testng-customsuite.xml
+
+Host: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, 8 cores, 15G,  Windows 10 , 64 bit Build 16299 (10.0.16299.431)
+Time: Wed Jun 06 22:51:20 2018 Sri Lanka Standard Time elapsed time: 0 seconds (0d 0h 0m 0s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000024c57bed000):  JavaThread "Unknown thread" [_thread_in_vm, id=28324, stack(0x00000099a6500000,0x00000099a6600000)]
+
+Stack: [0x00000099a6500000,0x00000099a6600000]
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x587068]
+V  [jvm.dll+0x69c25e]
+V  [jvm.dll+0x69d17a]
+V  [jvm.dll+0x69d7b3]
+V  [jvm.dll+0x21d198]
+V  [jvm.dll+0x584bb4]
+V  [jvm.dll+0x57a095]
+V  [jvm.dll+0x2cd67b]
+V  [jvm.dll+0x2cd5e3]
+V  [jvm.dll+0x2cd4b2]
+V  [jvm.dll+0x2cf4b3]
+V  [jvm.dll+0x3191e3]
+V  [jvm.dll+0x3198f6]
+V  [jvm.dll+0x3192e3]
+V  [jvm.dll+0x2adeb8]
+V  [jvm.dll+0x2af0e7]
+V  [jvm.dll+0x67b34d]
+V  [jvm.dll+0x67c70c]
+V  [jvm.dll+0x3269c9]
+V  [jvm.dll+0x66555e]
+V  [jvm.dll+0x391811]
+V  [jvm.dll+0x3937c1]
+C  [javaw.exe+0x3501]
+C  [javaw.exe+0xe25f]
+C  [javaw.exe+0xe406]
+C  [KERNEL32.DLL+0x11fe4]
+C  [ntdll.dll+0x6f061]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+  0x0000024c57c04000 GCTaskThread "GC Thread#0" [stack: 0x00000099a6600000,0x00000099a6700000] [id=16616]
+  0x0000024c57c05800 GCTaskThread "GC Thread#1" [stack: 0x00000099a6700000,0x00000099a6800000] [id=28416]
+  0x0000024c57c07800 GCTaskThread "GC Thread#2" [stack: 0x00000099a6800000,0x00000099a6900000] [id=23124]
+  0x0000024c57c0e000 GCTaskThread "GC Thread#3" [stack: 0x00000099a6900000,0x00000099a6a00000] [id=28236]
+  0x0000024c57c0e800 GCTaskThread "GC Thread#4" [stack: 0x00000099a6a00000,0x00000099a6b00000] [id=13500]
+  0x0000024c57c12000 GCTaskThread "GC Thread#5" [stack: 0x00000099a6b00000,0x00000099a6c00000] [id=23964]
+  0x0000024c57c14000 GCTaskThread "GC Thread#6" [stack: 0x00000099a6c00000,0x00000099a6d00000] [id=18636]
+  0x0000024c57c15800 GCTaskThread "GC Thread#7" [stack: 0x00000099a6d00000,0x00000099a6e00000] [id=11064]
+  0x0000024c57c92000 ConcurrentGCThread "G1 Main Marker" [stack: 0x00000099a7700000,0x00000099a7800000] [id=17684]
+  0x0000024c57c97800 ConcurrentGCThread "G1 Marker#0" [stack: 0x00000099a7800000,0x00000099a7900000] [id=25060]
+  0x0000024c57c93800 ConcurrentGCThread "G1 Marker#1" [stack: 0x00000099a7900000,0x00000099a7a00000] [id=1116]
+  0x0000024c57c46800 ConcurrentGCThread "G1 Refine#0" [stack: 0x00000099a7500000,0x00000099a7600000] [id=23624]
+  0x0000024c57c45800 ConcurrentGCThread "G1 Refine#1" [stack: 0x00000099a7400000,0x00000099a7500000] [id=21660]
+  0x0000024c57c32000 ConcurrentGCThread "G1 Refine#2" [stack: 0x00000099a7300000,0x00000099a7400000] [id=25968]
+  0x0000024c57c27000 ConcurrentGCThread "G1 Refine#3" [stack: 0x00000099a7200000,0x00000099a7300000] [id=27712]
+  0x0000024c57c25000 ConcurrentGCThread "G1 Refine#4" [stack: 0x00000099a7100000,0x00000099a7200000] [id=29032]
+  0x0000024c57c22000 ConcurrentGCThread "G1 Refine#5" [stack: 0x00000099a7000000,0x00000099a7100000] [id=15800]
+  0x0000024c57c21000 ConcurrentGCThread "G1 Refine#6" [stack: 0x00000099a6f00000,0x00000099a7000000] [id=11640]
+  0x0000024c57c20000 ConcurrentGCThread "G1 Refine#7" [stack: 0x00000099a6e00000,0x00000099a6f00000] [id=22088]
+  0x0000024c57c4d800 ConcurrentGCThread "G1 Young RemSet Sampling" [stack: 0x00000099a7600000,0x00000099a7700000] [id=3944]
+
+=>0x0000024c57bed000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=28324, stack(0x00000099a6500000,0x00000099a6600000)]
+
+Threads with active compile tasks:
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x0000024c57beae10] Heap_lock - owner thread: 0x0000024c57bed000
+
+Heap address: 0x00000006c6600000, size: 3994 MB, Compressed Oops mode: Non-zero based: 0x00000006c6600000
+Narrow klass base: 0x0000000000000000, Narrow klass shift: 0
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+0x00007ff750f60000 - 0x00007ff750f9e000 	C:\Program Files\Java\jdk-9.0.4\bin\javaw.exe
+0x00007ffe7ecc0000 - 0x00007ffe7eea0000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ffe7e900000 - 0x00007ffe7e9ae000 	C:\WINDOWS\System32\KERNEL32.DLL
+0x00007ffe7b3b0000 - 0x00007ffe7b616000 	C:\WINDOWS\System32\KERNELBASE.dll
+0x00007ffe7e9d0000 - 0x00007ffe7ea71000 	C:\WINDOWS\System32\ADVAPI32.dll
+0x00007ffe7c950000 - 0x00007ffe7c9ed000 	C:\WINDOWS\System32\msvcrt.dll
+0x00007ffe7c4d0000 - 0x00007ffe7c52b000 	C:\WINDOWS\System32\sechost.dll
+0x00007ffe7eb70000 - 0x00007ffe7ec8f000 	C:\WINDOWS\System32\RPCRT4.dll
+0x00007ffe7c2e0000 - 0x00007ffe7c46f000 	C:\WINDOWS\System32\USER32.dll
+0x00007ffe7b290000 - 0x00007ffe7b2b0000 	C:\WINDOWS\System32\win32u.dll
+0x00007ffe7eb40000 - 0x00007ffe7eb68000 	C:\WINDOWS\System32\GDI32.dll
+0x00007ffe7b6c0000 - 0x00007ffe7b853000 	C:\WINDOWS\System32\gdi32full.dll
+0x00007ffe7b620000 - 0x00007ffe7b6bb000 	C:\WINDOWS\System32\msvcp_win.dll
+0x00007ffe7b860000 - 0x00007ffe7b956000 	C:\WINDOWS\System32\ucrtbase.dll
+0x00007ffe6ec50000 - 0x00007ffe6eeb9000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.16299.431_none_15c7d3ee93659e73\COMCTL32.dll
+0x00007ffe7c640000 - 0x00007ffe7c948000 	C:\WINDOWS\System32\combase.dll
+0x00007ffe7c110000 - 0x00007ffe7c182000 	C:\WINDOWS\System32\bcryptPrimitives.dll
+0x00007ffe72bc0000 - 0x00007ffe72bca000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x00007ffe7ea80000 - 0x00007ffe7eaad000 	C:\WINDOWS\System32\IMM32.DLL
+0x00007ffe32e80000 - 0x00007ffe32f6f000 	C:\Program Files\Java\jdk-9.0.4\bin\msvcr120.dll
+0x00007ffe32b70000 - 0x00007ffe32c16000 	C:\Program Files\Java\jdk-9.0.4\bin\msvcp120.dll
+0x000000005f400000 - 0x000000005fe25000 	C:\Program Files\Java\jdk-9.0.4\bin\server\jvm.dll
+0x00007ffe7e9b0000 - 0x00007ffe7e9b8000 	C:\WINDOWS\System32\PSAPI.DLL
+0x00007ffe79b90000 - 0x00007ffe79b99000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007ffe7e470000 - 0x00007ffe7e4dc000 	C:\WINDOWS\System32\WS2_32.dll
+0x00007ffe76cb0000 - 0x00007ffe76cd3000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ffe76c80000 - 0x00007ffe76caa000 	C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+0x00007ffe7b2b0000 - 0x00007ffe7b2fa000 	C:\WINDOWS\System32\cfgmgr32.dll
+0x00007ffe786b0000 - 0x00007ffe786bf000 	C:\Program Files\Java\jdk-9.0.4\bin\verify.dll
+0x00007ffe5cbd0000 - 0x00007ffe5cbf7000 	C:\Program Files\Java\jdk-9.0.4\bin\java.dll
+0x00007ffe5e430000 - 0x00007ffe5e446000 	C:\Program Files\Java\jdk-9.0.4\bin\zip.dll
+0x00007ffe786a0000 - 0x00007ffe786aa000 	C:\Program Files\Java\jdk-9.0.4\bin\jimage.dll
+0x00007ffe799a0000 - 0x00007ffe79b68000 	C:\WINDOWS\SYSTEM32\dbghelp.dll
+
+VM Arguments:
+jvm_args: -ea -Dfile.encoding=Cp1252 
+java_command: org.testng.remote.RemoteTestNG -serport 39194 -protocol json -d C:\Users\kam\selenium_tryouts\ApachePOIDataDriven\test-output C:\Users\kam\AppData\Local\Temp\testng-eclipse--1452283284\testng-customsuite.xml
+java_class_path (initial): C:\Users\kam\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\550\0\.cp\lib\testng-remote.jar;C:\Users\kam\selenium_tryouts\ApachePOIDataDriven\target\test-classes;C:\Users\kam\selenium_tryouts\ApachePOIDataDriven\target\classes;C:\Users\kam\.p2\pool\plugins\org.testng_6.14.2.r201802161450.jar;C:\Users\kam\.p2\pool\plugins\com.beust.jcommander_1.72.0.jar;C:\Users\kam\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar;C:\Users\kam\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar;C:\Users\kam\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar;C:\Users\kam\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar;C:\Users\kam\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar;C:\Users\kam\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar;C:\Users\kam\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar;C:\Users\kam\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar;C:\Users\kam\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar;C:\Users\kam\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar;C:\Users\kam\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\kam\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\kam\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar;C:\Users\kam\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\kam\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\kam\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar;C:\Users\kam\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar;C:\Users\kam\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar;C:\Users\kam\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar;C:\Users\kam\.m2\repos
+Launcher Type: SUN_STANDARD
+
+Logging:
+Log output configuration:
+#0: stdout all=warning uptime,level,tags
+#1: stderr all=off uptime,level,tags
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk-9.0.4\
+PATH=C:/Program Files/Java/jdk-9.0.4//bin/server;C:/Program Files/Java/jdk-9.0.4//bin;C:\Users\kam\AppData\Roaming\npm\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Dell\DW WLAN Card;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\TortoiseGit\bin;C:\chromedrv\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\kam\AppData\Local\Android\Sdk\platform-tools;C:\Users\kam\AppData\Roaming\npm\webdriver-manager\;C:\Users\kam\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\
+USERNAME=kam
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 94 Stepping 3, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10 , 64 bit Build 16299 (10.0.16299.431)
+
+CPU:total 8 (initial active 8) (4 cores per cpu, 2 threads per core) family 6 model 94 stepping 3, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, rtm, 3dnowpref, lzcnt, ht, tsc, tscinvbit, bmi1, bmi2, adx, fma
+
+Memory: 4k page, physical 16354836k(3240804k free), swap 20549140k(124272k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (9.0.4+11) for windows-amd64 JRE (9.0.4+11), built on Dec 20 2017 02:18:54 by "mach5one" with MS VC++ 12.0 (VS2013)
+
+END.
