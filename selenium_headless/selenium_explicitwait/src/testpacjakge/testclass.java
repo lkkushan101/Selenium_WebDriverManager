@@ -19,23 +19,25 @@ public static void main (String args[])
 {
 	System.setProperty("webdriver.chrome.driver", "C:\\chromedrv\\chromedriver.exe");
  
-
+	
 	WebDriver driver = new ChromeDriver();
 	
 	driver.get("http://www.google.lk");
 	driver.findElement(By.name("q")).sendKeys("Selenium");
 	driver.findElement(By.name("btnK")).click();
 	driver.findElement(By.linkText("Selenium - Web Browser Automation")).click();
-	String strTitle = driver.getTitle();
+	
 	
 	//Handling the delay of loading the page via explicit wait
 	WebDriverWait wait=new WebDriverWait(driver, 20);
 	WebElement download_link;
 	download_link= wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("Download")));
 	download_link.click();
-	
-	assertEquals(strTitle, "Selenium - Web Browser Automation");
+	String strTitle = driver.getTitle();
+	assertEquals(strTitle, "Downloads");
 	System.out.print("test done");
+	driver.close();
+	driver.quit();
 }
 
 
