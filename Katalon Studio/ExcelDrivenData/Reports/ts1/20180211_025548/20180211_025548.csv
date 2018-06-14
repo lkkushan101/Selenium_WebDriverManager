@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ts1,Firefox 59.0,,2018-02-11 02:55:49,2018-02-11 02:55:58,8.373s,PASSED
+,,,,,,
+Test Cases/Guru99DemoLogin,Firefox 59.0,,2018-02-11 02:55:50,2018-02-11 02:55:57,7.775s,PASSED
+openBrowser,Firefox 59.0,,2018-02-11 02:55:50,2018-02-11 02:55:57,6.798s,PASSED
+setText,Firefox 59.0,,2018-02-11 02:55:57,2018-02-11 02:55:57,0.125s,PASSED
+setText,Firefox 59.0,,2018-02-11 02:55:57,2018-02-11 02:55:57,0.053s,PASSED
+click,Firefox 59.0,,2018-02-11 02:55:57,2018-02-11 02:55:57,0.525s,PASSED

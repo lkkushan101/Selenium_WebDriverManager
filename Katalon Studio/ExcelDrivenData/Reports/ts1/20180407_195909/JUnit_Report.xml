@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ts1" time="8" tests="1" failures="0" errors="0">
+   <testsuite name="ts1" tests="1" failures="0" errors="0" time="8" timestamp="2018-04-07 19:59:11" hostname="kam - LK-KAM.codehousegroup.local" id="Test Suites/ts1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\kam\\Katalon Studio\\ExcelDrivenData\\Reports\\ts1\\20180407_195909"/>
+         <property name="logFiles" value="C:\\Users\\kam\\Katalon Studio\\ExcelDrivenData\\Reports\\ts1\\20180407_195909\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="kam - LK-KAM.codehousegroup.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="10.148.41.87"/>
+         <property name="sessionId" value="6613f9dc1bf2709d4a108f7467ec6cfb"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Guru99DemoLogin" classname="Test Cases/Guru99DemoLogin" status="PASSED">
+         <system-out><![CDATA[2018-04-07 19:59:11 - [TEST_CASE][PASSED] - Test Cases/Guru99DemoLogin: Test Cases/Guru99DemoLogin
+
+2018-04-07 19:59:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://demo.guru99.com/v4/'
+
+2018-04-07 19:59:18 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demo.guru99.com/v4/'
+
+2018-04-07 19:59:18 - [TEST_STEP][PASSED] - setText: Text 'mngr116601' is set on object 'Object Repository/InputUserName'
+
+2018-04-07 19:59:18 - [MESSAGE][PASSED] - Text 'mngr116601' is set on object 'Object Repository/InputUserName'
+
+2018-04-07 19:59:18 - [TEST_STEP][PASSED] - setText: Text 'sepAder' is set on object 'Object Repository/InputPassword'
+
+2018-04-07 19:59:18 - [MESSAGE][PASSED] - Text 'sepAder' is set on object 'Object Repository/InputPassword'
+
+2018-04-07 19:59:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ButtonLogin' is clicked on
+
+2018-04-07 19:59:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ButtonLogin' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-07 19:59:11 - [TEST_SUITE][PASSED] - ts1: Test Cases/Guru99DemoLogin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
