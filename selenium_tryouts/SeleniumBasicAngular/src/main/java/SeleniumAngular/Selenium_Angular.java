@@ -1,4 +1,4 @@
-package SeleniumSAP;
+package SeleniumAngular;
 import static org.testng.Assert.assertEquals;
 
 import org.openqa.selenium.*;
@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-public class Selenium_SAP {
+public class Selenium_Angular {
 	
 	WebDriver driver;
 	
