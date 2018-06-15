@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Project>
-   <description></description>
-   <name>SAP_Automation</name>
-   <tag></tag>
-   <UUID>db56239f-56b0-4931-86bd-73bc5b313c37</UUID>
-   <migratedVersion>5.4.0</migratedVersion>
-   <pageLoadTimeout>0</pageLoadTimeout>
-</Project>
