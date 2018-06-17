@@ -1,4 +1,0 @@
-17/06/2018 19:52:51 devpinoyLogger {"Temperature":"22.319 Degree celsius","WindDirectionDegree":"238.001 Degree","Humidity":"93 Percent","WeatherDescription":"light rain","WindSpeed":"5.91 Km per hour","City":"Pune"}
-17/06/2018 19:52:51 devpinoyLogger 200
-17/06/2018 19:52:51 devpinoyLogger OK
-17/06/2018 19:52:51 devpinoyLogger {Server=[nginx/1.12.2], Cache-Control=[max-age=2592000], Access-Control-Allow-Origin=[*], Connection=[keep-alive], Vary=[Accept-Encoding,User-Agent], Expires=[Tue, 17 Jul 2018 14:22:50 GMT], Date=[Sun, 17 Jun 2018 14:22:50 GMT], Content-Type=[application/json]}
