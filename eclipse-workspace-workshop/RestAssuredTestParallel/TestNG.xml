@@ -3,7 +3,7 @@
 <suite name="TestSuite" thread-count="3" parallel="methods" >
 <test name="testGuru">
 <classes>
-<class name="UniRESTJava.UNIRestClass">
+<class name="RestPkg.RestClass">
 </class>
 </classes>
 </test>
