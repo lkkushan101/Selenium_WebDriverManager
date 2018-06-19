@@ -1,0 +1,162 @@
+08:34:23,515 DEBUG RequestAddCookies:122 – CookieSpec selected: best-match
+08:34:23,515 DEBUG RequestAddCookies:122 – CookieSpec selected: best-match
+08:34:23,515 DEBUG RequestAddCookies:122 – CookieSpec selected: best-match
+08:34:23,524 DEBUG RequestAuthCache:75 – Auth cache not set in the context
+08:34:23,524 DEBUG RequestAuthCache:75 – Auth cache not set in the context
+08:34:23,524 DEBUG RequestAuthCache:75 – Auth cache not set in the context
+08:34:23,525 DEBUG PoolingHttpClientConnectionManager:219 – Connection request: [route: {}->http://restapi.demoqa.com:80][total kept alive: 0; route allocated: 0 of 20; total allocated: 0 of 200]
+08:34:23,525 DEBUG PoolingHttpClientConnectionManager:219 – Connection request: [route: {}->http://restapi.demoqa.com:80][total kept alive: 0; route allocated: 0 of 20; total allocated: 0 of 200]
+08:34:23,525 DEBUG PoolingHttpClientConnectionManager:219 – Connection request: [route: {}->http://restapi.demoqa.com:80][total kept alive: 0; route allocated: 0 of 20; total allocated: 0 of 200]
+08:34:23,538 DEBUG PoolingHttpClientConnectionManager:250 – Connection leased: [id: 0][route: {}->http://restapi.demoqa.com:80][total kept alive: 0; route allocated: 1 of 20; total allocated: 1 of 200]
+08:34:23,538 DEBUG PoolingHttpClientConnectionManager:250 – Connection leased: [id: 2][route: {}->http://restapi.demoqa.com:80][total kept alive: 0; route allocated: 3 of 20; total allocated: 3 of 200]
+08:34:23,538 DEBUG PoolingHttpClientConnectionManager:250 – Connection leased: [id: 1][route: {}->http://restapi.demoqa.com:80][total kept alive: 0; route allocated: 2 of 20; total allocated: 2 of 200]
+08:34:23,539 DEBUG MainClientExec:217 – Opening connection {}->http://restapi.demoqa.com:80
+08:34:23,539 DEBUG MainClientExec:217 – Opening connection {}->http://restapi.demoqa.com:80
+08:34:23,539 DEBUG MainClientExec:217 – Opening connection {}->http://restapi.demoqa.com:80
+08:34:23,542 DEBUG HttpClientConnectionOperator:122 – Connecting to restapi.demoqa.com/108.167.140.152:80
+08:34:23,542 DEBUG HttpClientConnectionOperator:122 – Connecting to restapi.demoqa.com/108.167.140.152:80
+08:34:23,542 DEBUG HttpClientConnectionOperator:122 – Connecting to restapi.demoqa.com/108.167.140.152:80
+08:34:23,842 DEBUG HttpClientConnectionOperator:129 – Connection established 10.182.58.231:14620<->108.167.140.152:80
+08:34:23,843 DEBUG HttpClientConnectionOperator:129 – Connection established 10.182.58.231:14619<->108.167.140.152:80
+08:34:23,843 DEBUG MainClientExec:238 – Executing request GET /utilities/weather/city/Chennai HTTP/1.1
+08:34:23,843 DEBUG MainClientExec:243 – Target auth state: UNCHALLENGED
+08:34:23,843 DEBUG MainClientExec:238 – Executing request GET /utilities/weather/city/Mumbai HTTP/1.1
+08:34:23,843 DEBUG MainClientExec:243 – Target auth state: UNCHALLENGED
+08:34:23,844 DEBUG MainClientExec:249 – Proxy auth state: UNCHALLENGED
+08:34:23,844 DEBUG MainClientExec:249 – Proxy auth state: UNCHALLENGED
+08:34:23,845 DEBUG headers:124 – http-outgoing-2 >> GET /utilities/weather/city/Chennai HTTP/1.1
+08:34:23,845 DEBUG headers:127 – http-outgoing-2 >> accept: application/json
+08:34:23,845 DEBUG headers:127 – http-outgoing-2 >> accept-encoding: gzip
+08:34:23,845 DEBUG headers:127 – http-outgoing-2 >> user-agent: unirest-java/1.3.11
+08:34:23,845 DEBUG headers:127 – http-outgoing-2 >> Host: restapi.demoqa.com
+08:34:23,845 DEBUG headers:124 – http-outgoing-0 >> GET /utilities/weather/city/Mumbai HTTP/1.1
+08:34:23,846 DEBUG headers:127 – http-outgoing-0 >> accept: application/json
+08:34:23,846 DEBUG headers:127 – http-outgoing-2 >> Connection: Keep-Alive
+08:34:23,846 DEBUG headers:127 – http-outgoing-0 >> accept-encoding: gzip
+08:34:23,846 DEBUG headers:127 – http-outgoing-0 >> user-agent: unirest-java/1.3.11
+08:34:23,846 DEBUG headers:127 – http-outgoing-0 >> Host: restapi.demoqa.com
+08:34:23,847 DEBUG headers:127 – http-outgoing-0 >> Connection: Keep-Alive
+08:34:23,846 DEBUG wire:72 – http-outgoing-2 >> "GET /utilities/weather/city/Chennai HTTP/1.1[\r][\n]"
+08:34:23,847 DEBUG wire:72 – http-outgoing-2 >> "accept: application/json[\r][\n]"
+08:34:23,847 DEBUG wire:72 – http-outgoing-2 >> "accept-encoding: gzip[\r][\n]"
+08:34:23,847 DEBUG wire:72 – http-outgoing-2 >> "user-agent: unirest-java/1.3.11[\r][\n]"
+08:34:23,847 DEBUG wire:72 – http-outgoing-2 >> "Host: restapi.demoqa.com[\r][\n]"
+08:34:23,847 DEBUG wire:72 – http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+08:34:23,848 DEBUG wire:72 – http-outgoing-2 >> "[\r][\n]"
+08:34:23,847 DEBUG wire:72 – http-outgoing-0 >> "GET /utilities/weather/city/Mumbai HTTP/1.1[\r][\n]"
+08:34:23,848 DEBUG wire:72 – http-outgoing-0 >> "accept: application/json[\r][\n]"
+08:34:23,848 DEBUG wire:72 – http-outgoing-0 >> "accept-encoding: gzip[\r][\n]"
+08:34:23,848 DEBUG wire:72 – http-outgoing-0 >> "user-agent: unirest-java/1.3.11[\r][\n]"
+08:34:23,848 DEBUG wire:72 – http-outgoing-0 >> "Host: restapi.demoqa.com[\r][\n]"
+08:34:23,848 DEBUG wire:72 – http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+08:34:23,848 DEBUG wire:72 – http-outgoing-0 >> "[\r][\n]"
+08:34:23,847 DEBUG HttpClientConnectionOperator:129 – Connection established 10.182.58.231:14621<->108.167.140.152:80
+08:34:23,849 DEBUG MainClientExec:238 – Executing request GET /utilities/weather/city/Pune HTTP/1.1
+08:34:23,849 DEBUG MainClientExec:243 – Target auth state: UNCHALLENGED
+08:34:23,849 DEBUG MainClientExec:249 – Proxy auth state: UNCHALLENGED
+08:34:23,849 DEBUG headers:124 – http-outgoing-1 >> GET /utilities/weather/city/Pune HTTP/1.1
+08:34:23,849 DEBUG headers:127 – http-outgoing-1 >> accept: application/json
+08:34:23,849 DEBUG headers:127 – http-outgoing-1 >> accept-encoding: gzip
+08:34:23,849 DEBUG headers:127 – http-outgoing-1 >> user-agent: unirest-java/1.3.11
+08:34:23,850 DEBUG headers:127 – http-outgoing-1 >> Host: restapi.demoqa.com
+08:34:23,850 DEBUG headers:127 – http-outgoing-1 >> Connection: Keep-Alive
+08:34:23,850 DEBUG wire:72 – http-outgoing-1 >> "GET /utilities/weather/city/Pune HTTP/1.1[\r][\n]"
+08:34:23,850 DEBUG wire:72 – http-outgoing-1 >> "accept: application/json[\r][\n]"
+08:34:23,850 DEBUG wire:72 – http-outgoing-1 >> "accept-encoding: gzip[\r][\n]"
+08:34:23,850 DEBUG wire:72 – http-outgoing-1 >> "user-agent: unirest-java/1.3.11[\r][\n]"
+08:34:23,850 DEBUG wire:72 – http-outgoing-1 >> "Host: restapi.demoqa.com[\r][\n]"
+08:34:23,850 DEBUG wire:72 – http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+08:34:23,850 DEBUG wire:72 – http-outgoing-1 >> "[\r][\n]"
+08:34:24,395 DEBUG wire:72 – http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+08:34:24,399 DEBUG wire:72 – http-outgoing-2 << "Server: nginx/1.12.2[\r][\n]"
+08:34:24,399 DEBUG wire:72 – http-outgoing-2 << "Date: Tue, 19 Jun 2018 03:04:19 GMT[\r][\n]"
+08:34:24,400 DEBUG wire:72 – http-outgoing-2 << "Content-Type: application/json[\r][\n]"
+08:34:24,400 DEBUG wire:72 – http-outgoing-2 << "Content-Length: 164[\r][\n]"
+08:34:24,401 DEBUG wire:72 – http-outgoing-2 << "Connection: keep-alive[\r][\n]"
+08:34:24,401 DEBUG wire:72 – http-outgoing-2 << "Cache-Control: max-age=2592000[\r][\n]"
+08:34:24,401 DEBUG wire:72 – http-outgoing-2 << "Expires: Thu, 19 Jul 2018 03:04:19 GMT[\r][\n]"
+08:34:24,402 DEBUG wire:72 – http-outgoing-2 << "Vary: Accept-Encoding,User-Agent[\r][\n]"
+08:34:24,402 DEBUG wire:72 – http-outgoing-2 << "Content-Encoding: gzip[\r][\n]"
+08:34:24,402 DEBUG wire:72 – http-outgoing-2 << "Access-Control-Allow-Origin: *[\r][\n]"
+08:34:24,403 DEBUG wire:72 – http-outgoing-2 << "[\r][\n]"
+08:34:24,403 DEBUG wire:72 – http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+08:34:24,403 DEBUG wire:72 – http-outgoing-0 << "Server: nginx/1.12.2[\r][\n]"
+08:34:24,404 DEBUG wire:72 – http-outgoing-0 << "Date: Tue, 19 Jun 2018 03:04:19 GMT[\r][\n]"
+08:34:24,404 DEBUG wire:72 – http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+08:34:24,403 DEBUG wire:72 – http-outgoing-2 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]M[0x8e][0xc1][\n]"
+08:34:24,405 DEBUG wire:72 – http-outgoing-2 << "[0xc2]0[0x10]D[0xef][0xfd][0x8a]%g[0x11][0xb5]([0xe2][0xd5][0x1e][\n]"
+08:34:24,405 DEBUG wire:72 – http-outgoing-0 << "Content-Length: 159[\r][\n]"
+08:34:24,406 DEBUG wire:72 – http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+08:34:24,406 DEBUG wire:72 – http-outgoing-0 << "Cache-Control: max-age=2592000[\r][\n]"
+08:34:24,405 DEBUG wire:72 – http-outgoing-2 << "^[0x4][0x85][0x9e]C2[0xda][0x85]6)[0xdb][0x4][0x11][0xf1][0xdf]ml+[0xee]e`[0xe7]13[0xaf][0x8c][0x86]SG[0xe]Ou[0x18][0xb4][0x86]s[0x9a][0xd5]b|_[0xd1]v[0x10][0x1d][0xa2] [0xb9][0xf9][0x9a][\n]"
+08:34:24,407 DEBUG wire:72 – http-outgoing-0 << "Expires: Thu, 19 Jul 2018 03:04:19 GMT[\r][\n]"
+08:34:24,407 DEBUG wire:72 – http-outgoing-0 << "Vary: Accept-Encoding,User-Agent[\r][\n]"
+08:34:24,408 DEBUG wire:72 – http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+08:34:24,408 DEBUG wire:72 – http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+08:34:24,407 DEBUG wire:86 – http-outgoing-2 << "[0xdc][0x5] [0x83][0xa6][0xe7][0xd8][0xcf]\[0x19][[0xb6]S[0xc4]vOg[0x88][0x81][0xb][0xb3][A[0x87][0x1a]R[0xa0]7[0xc2]]`[0xef][0x12]w[0xc3][0x83]L[0xe3][0xa3][0xfd][0xa5]T[0xec][0xec][0xa5][0x3][0xec][0xb7]k[0xb9][0xa3]SKC=[0xd5]>[0xca]?S[0xb0][0xc0][0xa4][0x98]qL[0xa2]7[0xf9]j[0x9a][0xa6][0xb2][0xf7][0x7]y-[0x88][0x94][0xd4][0x0][0x0][0x0]"
+08:34:24,409 DEBUG wire:72 – http-outgoing-0 << "[\r][\n]"
+08:34:24,410 DEBUG wire:86 – http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]M[0x8e]1[0xb][0xc2]0[0x14][0x84][0xf7][0xfe][0x8a]Gf[0x91][0xea][0xa0][0xc5][0xd5][0xe][0x82][0x8][0x82][0x82]sL[0xf][0xfb][0xc0][0xa4][0xe1]%[0x19]T[0xfc][0xef]6[0xb6][0x15]o[0xbc][0xfb][0xb8][0xbb]WA[0xbd][0xd4][0x96][0xe3]CmH[0x1d][0x92][0xbd]jV[0xb3][0xc1]=[0xc3]z[0x88][0x8e]I[0x90][0xc3][0xe5][0x9a]j[0xdc][0x4] [0x83]{[0xe0][0x14]&n[0x97],7cCU[0xd1][0x11]b[0xe0][0xe2][0x94]^[0xa0]c[0xb][0xa9][0x11][0x8c][0xb0][0x8f][0xdc][0xb9][0xcc][0xb5][0xfa][0x89][0x1f][0xc1][0xae]9y[0xa0][0xf9][0xae][0xcc]W[0xb4][0xb7][0xd4][0xf]S[0xdb]%[0xf9]gj[0x16][0x98]\0[0xdc][0xc8][0xf4][0xa2],[0xc7]S[0xaa]x[0x0]D[0x99]m[0x8c][0xcd][0x0][0x0][0x0]"
+08:34:24,414 DEBUG headers:113 – http-outgoing-0 << HTTP/1.1 200 OK
+08:34:24,415 DEBUG headers:116 – http-outgoing-0 << Server: nginx/1.12.2
+08:34:24,415 DEBUG headers:116 – http-outgoing-0 << Date: Tue, 19 Jun 2018 03:04:19 GMT
+08:34:24,415 DEBUG headers:116 – http-outgoing-0 << Content-Type: application/json
+08:34:24,415 DEBUG headers:116 – http-outgoing-0 << Content-Length: 159
+08:34:24,415 DEBUG headers:116 – http-outgoing-0 << Connection: keep-alive
+08:34:24,415 DEBUG headers:116 – http-outgoing-0 << Cache-Control: max-age=2592000
+08:34:24,415 DEBUG headers:116 – http-outgoing-0 << Expires: Thu, 19 Jul 2018 03:04:19 GMT
+08:34:24,415 DEBUG headers:116 – http-outgoing-0 << Vary: Accept-Encoding,User-Agent
+08:34:24,414 DEBUG headers:113 – http-outgoing-2 << HTTP/1.1 200 OK
+08:34:24,416 DEBUG headers:116 – http-outgoing-2 << Server: nginx/1.12.2
+08:34:24,416 DEBUG headers:116 – http-outgoing-2 << Date: Tue, 19 Jun 2018 03:04:19 GMT
+08:34:24,416 DEBUG headers:116 – http-outgoing-2 << Content-Type: application/json
+08:34:24,416 DEBUG headers:116 – http-outgoing-2 << Content-Length: 164
+08:34:24,416 DEBUG headers:116 – http-outgoing-2 << Connection: keep-alive
+08:34:24,416 DEBUG headers:116 – http-outgoing-2 << Cache-Control: max-age=2592000
+08:34:24,416 DEBUG headers:116 – http-outgoing-2 << Expires: Thu, 19 Jul 2018 03:04:19 GMT
+08:34:24,416 DEBUG headers:116 – http-outgoing-2 << Vary: Accept-Encoding,User-Agent
+08:34:24,416 DEBUG headers:116 – http-outgoing-2 << Content-Encoding: gzip
+08:34:24,415 DEBUG headers:116 – http-outgoing-0 << Content-Encoding: gzip
+08:34:24,417 DEBUG headers:116 – http-outgoing-0 << Access-Control-Allow-Origin: *
+08:34:24,417 DEBUG headers:116 – http-outgoing-2 << Access-Control-Allow-Origin: *
+08:34:24,421 DEBUG MainClientExec:267 – Connection can be kept alive indefinitely
+08:34:24,421 DEBUG MainClientExec:267 – Connection can be kept alive indefinitely
+08:34:24,429 DEBUG wire:72 – http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+08:34:24,429 DEBUG wire:72 – http-outgoing-1 << "Server: nginx/1.12.2[\r][\n]"
+08:34:24,429 DEBUG wire:72 – http-outgoing-1 << "Date: Tue, 19 Jun 2018 03:04:19 GMT[\r][\n]"
+08:34:24,429 DEBUG wire:72 – http-outgoing-1 << "Content-Type: application/json[\r][\n]"
+08:34:24,429 DEBUG wire:72 – http-outgoing-1 << "Content-Length: 167[\r][\n]"
+08:34:24,430 DEBUG wire:72 – http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+08:34:24,430 DEBUG wire:72 – http-outgoing-1 << "Cache-Control: max-age=2592000[\r][\n]"
+08:34:24,430 DEBUG wire:72 – http-outgoing-1 << "Expires: Thu, 19 Jul 2018 03:04:19 GMT[\r][\n]"
+08:34:24,430 DEBUG wire:72 – http-outgoing-1 << "Vary: Accept-Encoding,User-Agent[\r][\n]"
+08:34:24,430 DEBUG wire:72 – http-outgoing-1 << "Content-Encoding: gzip[\r][\n]"
+08:34:24,430 DEBUG wire:72 – http-outgoing-1 << "Access-Control-Allow-Origin: *[\r][\n]"
+08:34:24,431 DEBUG wire:72 – http-outgoing-1 << "[\r][\n]"
+08:34:24,431 DEBUG wire:86 – http-outgoing-1 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]M[0x8e]=[0xb][0x83]@[0x10]D{[0xc5]ru8[0xf4][0xf2]Q[0xa4][0x8d][0x85][0x90]FH [0xb5][0x9c][0x83].[0xe8])[0xeb]][0x11]B[0xfe]{<[0x8d]![[0xce]<f[0xdf]+[0xa1][0xf9][0xd4][0x85][0xfd]S[0x9d]I[0x95][0xc1]A[0xed][0xd6][0xec][0x8e]~[0x84]T>[0x8]be[0x8c]>[0x99][0x8c]r4[0x2][0x90]E7q[0x98]6[0xb6][0x8]=[0xd7][0xdf][0x8d],M[0xa9][0x84]X8[0xbf][0xd5][0xf]T[0xbe][0x85][0xe4][0x98][0xac][0xf0][0xe8]yp[0x11][0xec][0xb8]i=I[0xc5][0xee][0xc7][0xb1][0xab]o#P/[0xf]uf[0xe8][0xda][0xd3],A[0xed][0x10][0xe4][0x1f][0xca]Y`[0xe3][0xce][0xaa][0xb3][0xe0][0x87][0xbd]>[0xa6][0x9b][0xa0]J[0xde][0x1f][0xb3][0xb2][0xa0]E[0xdb][0x0][0x0][0x0]"
+08:34:24,431 DEBUG headers:113 – http-outgoing-1 << HTTP/1.1 200 OK
+08:34:24,431 DEBUG headers:116 – http-outgoing-1 << Server: nginx/1.12.2
+08:34:24,431 DEBUG headers:116 – http-outgoing-1 << Date: Tue, 19 Jun 2018 03:04:19 GMT
+08:34:24,431 DEBUG headers:116 – http-outgoing-1 << Content-Type: application/json
+08:34:24,431 DEBUG headers:116 – http-outgoing-1 << Content-Length: 167
+08:34:24,431 DEBUG headers:116 – http-outgoing-1 << Connection: keep-alive
+08:34:24,432 DEBUG headers:116 – http-outgoing-1 << Cache-Control: max-age=2592000
+08:34:24,432 DEBUG headers:116 – http-outgoing-1 << Expires: Thu, 19 Jul 2018 03:04:19 GMT
+08:34:24,432 DEBUG headers:116 – http-outgoing-1 << Vary: Accept-Encoding,User-Agent
+08:34:24,432 DEBUG headers:116 – http-outgoing-1 << Content-Encoding: gzip
+08:34:24,432 DEBUG headers:116 – http-outgoing-1 << Access-Control-Allow-Origin: *
+08:34:24,432 DEBUG PoolingHttpClientConnectionManager:281 – Connection [id: 0][route: {}->http://restapi.demoqa.com:80] can be kept alive indefinitely
+08:34:24,432 DEBUG MainClientExec:267 – Connection can be kept alive indefinitely
+08:34:24,432 DEBUG PoolingHttpClientConnectionManager:281 – Connection [id: 2][route: {}->http://restapi.demoqa.com:80] can be kept alive indefinitely
+08:34:24,432 DEBUG PoolingHttpClientConnectionManager:287 – Connection released: [id: 0][route: {}->http://restapi.demoqa.com:80][total kept alive: 1; route allocated: 3 of 20; total allocated: 3 of 200]
+08:34:24,433 DEBUG PoolingHttpClientConnectionManager:287 – Connection released: [id: 2][route: {}->http://restapi.demoqa.com:80][total kept alive: 2; route allocated: 3 of 20; total allocated: 3 of 200]
+08:34:24,433 DEBUG MainClientExec:140 – Cancelling request execution
+08:34:24,433 DEBUG PoolingHttpClientConnectionManager:281 – Connection [id: 1][route: {}->http://restapi.demoqa.com:80] can be kept alive indefinitely
+08:34:24,433 DEBUG MainClientExec:140 – Cancelling request execution
+08:34:24,433 DEBUG PoolingHttpClientConnectionManager:287 – Connection released: [id: 1][route: {}->http://restapi.demoqa.com:80][total kept alive: 3; route allocated: 3 of 20; total allocated: 3 of 200]
+08:34:24,434 DEBUG MainClientExec:140 – Cancelling request execution
+08:34:24,434  INFO devpinoyLogger:31 – {"Temperature":"27 Degree celsius","WindDirectionDegree":"100 Degree","Humidity":"88 Percent","WeatherDescription":"haze","WindSpeed":"2.6 Km per hour","City":"Mumbai"}
+08:34:24,434  INFO devpinoyLogger:20 – {"Temperature":"22.621 Degree celsius","WindDirectionDegree":"243.501 Degree","Humidity":"100 Percent","WeatherDescription":"light rain","WindSpeed":"2.12 Km per hour","City":"Pune"}
+08:34:24,434  INFO devpinoyLogger:43 – {"Temperature":"31 Degree celsius","WindDirectionDegree":"230 Degree","Humidity":"58 Percent","WeatherDescription":"few clouds","WindSpeed":"3.6 Km per hour","City":"Chennai"}
+08:34:24,435  INFO devpinoyLogger:21 – 200
+08:34:24,435  INFO devpinoyLogger:32 – 200
+08:34:24,435  INFO devpinoyLogger:44 – 200
