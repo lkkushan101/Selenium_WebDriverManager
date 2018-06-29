@@ -1,4 +1,4 @@
-Feature: Search Google
+Feature: Sending BDD Request with UniRest
   Scenario: Send post request in UniRest
 
     Given I have a URL for post request
