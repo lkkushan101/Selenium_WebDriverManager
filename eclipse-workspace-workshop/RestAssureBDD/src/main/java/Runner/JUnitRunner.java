@@ -9,6 +9,6 @@ import cucumber.api.junit.Cucumber;
 	@CucumberOptions(
 			plugin = {"pretty"},
 			glue = {"stepdefs"},//Your step definitions package.
-			features = {"C:/Users/kam/eclipse-workspace-workshop/UNIRestBDD/src/main/java/features/UNIRESTPost.feature"})
+			features = {"C:/Users/kam/eclipse-workspace-workshop/RestAssureBDD/src/main/java/features/RESTAssurePost.feature"})
 	
 	public class JUnitRunner {}

@@ -1,5 +1,5 @@
-Feature: Sending BDD Request with UniRest
-  Scenario: Send post request in UniRest
+Feature: Send BBD Request with REST Assured 
+  Scenario: Send post request in RESTAssured
 
     Given I have a URL for post request
 
