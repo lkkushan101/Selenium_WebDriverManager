@@ -58,11 +58,12 @@ public class CreateCompany {
 		    	if (gridStatus.equals("Yes"))
 		    	{
 		    		driver = bwStart.startGridChormeHeadless(driver);
-		    		
+		    		ngdriver = new NgWebDriver((JavascriptExecutor) driver);
 		    	}
 		    	else
 		    	{
 				    driver = bwStart.startChromeHeadless(driver);
+				    ngdriver = new NgWebDriver((JavascriptExecutor) driver);
 		    	}
 		    }
 		    else if (browserMode.equals("Chrome"))
@@ -72,7 +73,7 @@ public class CreateCompany {
 		    	if (gridStatus.equals("Yes"))
 		    	{
 		    	     driver = bwStart.startGridChorme(driver);
-		    	   
+		    	     ngdriver = new NgWebDriver((JavascriptExecutor) driver);
 		    	}
 		    	else
 		    	{
@@ -87,11 +88,12 @@ public class CreateCompany {
 		    	if (gridStatus.equals("Yes"))
 		    	{
 		    	    driver = bwStart.startGridFireFox(driver);
-		    	   
+		    	    ngdriver = new NgWebDriver((JavascriptExecutor) driver);
 		    	}
 		    	else
 		    	{
 		    	  driver = bwStart.startFireFox(driver);
+		    	  ngdriver = new NgWebDriver((JavascriptExecutor) driver);
 		    	}
 		    }
 		    else if (browserMode.equals("Firefox-Headless"))
@@ -102,11 +104,12 @@ public class CreateCompany {
 		    	if (gridStatus.equals("Yes"))
 		    	{
 		    	      driver = bwStart.startGridFireFoxHeadless(driver);
-		    	   
+		    	      ngdriver = new NgWebDriver((JavascriptExecutor) driver);
 		    	}
 		    	else
 		    	{
 			         driver = bwStart.startFireFoxHeadless(driver);
+			         ngdriver = new NgWebDriver((JavascriptExecutor) driver);
 		    	}
 		    }
 		    
