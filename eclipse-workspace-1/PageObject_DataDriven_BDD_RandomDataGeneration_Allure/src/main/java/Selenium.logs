@@ -1,8 +1,0 @@
-00:50:09,540 DEBUG devpinoyLogger:119 – Navigating to Login Page
-00:50:13,924 DEBUG devpinoyLogger:157 – Company created
-00:50:14,084 DEBUG cache:45 – Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-00:50:14,084 DEBUG cache:45 – TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-00:50:14,088 DEBUG cache:45 – TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-00:50:14,088 DEBUG cache:45 – TemplateLoader.findTemplateSource("Extent.ftl"): Found
-00:50:14,088 DEBUG cache:45 – Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/kam/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-00:50:14,592 DEBUG devpinoyLogger:163 – Creating final report
