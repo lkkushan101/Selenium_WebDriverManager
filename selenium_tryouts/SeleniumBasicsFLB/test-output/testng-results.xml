@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-09-14T22:59:36Z" name="Default suite" finished-at="2018-09-14T23:00:40Z" duration-ms="64115">
+    <groups>
+    </groups>
+    <test started-at="2018-09-14T22:59:36Z" name="Default test" finished-at="2018-09-14T23:00:40Z" duration-ms="64115">
+      <class name="SeleniumBasics.SearchGoogle">
+        <test-method is-config="true" signature="setup()[pri:0, instance:SeleniumBasics.SearchGoogle@2b4bac49]" started-at="2018-09-14T22:59:36Z" name="setup" finished-at="2018-09-14T22:59:42Z" duration-ms="6571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSearch()[pri:0, instance:SeleniumBasics.SearchGoogle@2b4bac49]" started-at="2018-09-14T22:59:42Z" name="testSearch" finished-at="2018-09-14T23:00:39Z" duration-ms="56856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumBasics.SearchGoogle@2b4bac49]" started-at="2018-09-14T23:00:39Z" name="tearDown" finished-at="2018-09-14T23:00:40Z" duration-ms="639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumBasics.SearchGoogle -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

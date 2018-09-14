@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [TestSuite]" parallel="methods">
+  <test name="testGuru(failed)" parallel="methods" preserve-order="true">
+    <classes>
+      <class name="SeleniumBasics.SearchGoogle">
+        <methods>
+          <include name="bankTest"/>
+        </methods>
+      </class> <!-- SeleniumBasics.SearchGoogle -->
+    </classes>
+  </test> <!-- testGuru(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
